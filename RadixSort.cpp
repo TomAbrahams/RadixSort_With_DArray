@@ -52,12 +52,12 @@ void countSort(DArray & myArray, int exponent)
 	{
 		for (int k = 0; (k < myArray.getNumOfElements()); k++)
 		{
-			cout << "Checking digit "<< i << " this " << myArray[k] << " converted=" << nthDigit(myArray[k], exponent) << "\n";
+			//cout << "Checking digit "<< i << " this " << myArray[k] << " converted=" << nthDigit(myArray[k], exponent) << "\n";
 			if (nthDigit(myArray[k], exponent) == i)
 			{		
 				storedArray.addElement(myArray[k]);
 			}
-			storedArray.printArray();
+			//storedArray.printArray();
 		}
 	}
 	storedArray.printArray();
